@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.logo {
+  max-width: 160px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+h1 {
+  color: #2e2472;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.05rem;
+}
+
+a {
+  color: #2e2472;
+  font-weight: 600;
+}
