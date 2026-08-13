@@ -40,3 +40,20 @@ a {
   color: #2e2472;
   font-weight: 600;
 }
+.site-footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #e0ddf2;
+  text-align: right;
+}
+
+.footer-logo {
+  max-width: 90px;
+  opacity: 0.85;
+}
+
+.site-footer p {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 6px 0 0;
+}
