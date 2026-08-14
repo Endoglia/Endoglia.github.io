@@ -7,7 +7,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar">
+  <div class="topbar">
+    <button class="menu-btn" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+    <span class="topbar-title">EndoGlia</span>
+  </div>
+  <nav class="navbar" id="menu">
     <a href="index.html">🏠 Home</a>
     <a href="about.html">👥 About</a>
     <a href="#">📅 Upcoming Seminars</a>
