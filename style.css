@@ -156,3 +156,39 @@ h2 {
   font-size: 1.4rem;
   margin-top: 30px;
 }
+.profile-card {
+  background: #f7f6ff;
+  border: 1px solid #e0ddf2;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: left;
+  max-width: 640px;
+  margin: 20px auto;
+}
+
+.profile-card h3 {
+  margin: 0 0 4px;
+  color: #2e2472;
+  font-size: 1.15rem;
+}
+
+.profile-card .role {
+  margin: 0 0 14px;
+  color: #f4c800;
+  background: #2e2472;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.profile-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.profile-card a {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
