@@ -207,3 +207,30 @@ h2 {
   border-bottom: 2px solid #f4c800;
   padding-bottom: 4px;
 }
+.coming-soon {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.coming-soon img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.coming-soon .icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.coming-soon h2 {
+  margin-top: 0;
+}
+
+.coming-soon p {
+  color: #555;
+  max-width: 480px;
+  margin: 10px auto 0;
+}
