@@ -192,3 +192,13 @@ h2 {
   font-size: 0.9rem;
   font-weight: 600;
 }
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title-logo {
+  height: 2.2rem;
+  width: auto;
+}
