@@ -40,6 +40,100 @@ a {
   color: #2e2472;
   font-weight: 600;
 }
+
+/* Top bar with hamburger menu */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #2e2472;
+  padding: 14px 20px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.topbar-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  display: none;
+  flex-direction: column;
+  background: #241d5c;
+  padding: 10px 20px;
+}
+
+.navbar.open {
+  display: flex;
+}
+
+.navbar a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar a:hover {
+  color: #f4c800;
+}
+
+.navbar a:last-child {
+  border-bottom: none;
+}
+
+/* Divider */
+.divider {
+  height: 4px;
+  width: 60px;
+  background: #f4c800;
+  margin: 30px auto;
+  border-radius: 2px;
+}
+
+/* Preview cards */
+.card-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background: #f7f6ff;
+  border: 1px solid #e0ddf2;
+  border-radius: 8px;
+  padding: 18px;
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  color: #2e2472;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Footer */
 .site-footer {
   margin-top: 50px;
   padding-top: 20px;
