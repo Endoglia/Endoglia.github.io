@@ -254,3 +254,18 @@ h2 {
   max-width: 100%;
   border: none;
 }
+.card {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(46, 36, 114, 0.15);
+}
+
+.card h3,
+.card p {
+  text-decoration: none;
+}
