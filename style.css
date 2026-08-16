@@ -234,3 +234,23 @@ h2 {
   max-width: 480px;
   margin: 10px auto 0;
 }
+.contact-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-info p {
+  font-size: 1.05rem;
+  margin: 10px 0;
+}
+
+.mailing-list-form {
+  max-width: 640px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.mailing-list-form iframe {
+  max-width: 100%;
+  border: none;
+}
