@@ -269,3 +269,44 @@ h2 {
 .card p {
   text-decoration: none;
 }
+.linkedin-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #f7f6ff;
+  border: 1px solid #e0ddf2;
+  border-radius: 8px;
+  padding: 16px 20px;
+  max-width: 480px;
+  margin: 20px auto;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.linkedin-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(46, 36, 114, 0.15);
+}
+
+.linkedin-card-logo {
+  max-width: 48px;
+  height: auto;
+}
+
+.linkedin-card-text h3 {
+  margin: 0 0 2px;
+  color: #2e2472;
+  font-size: 1rem;
+}
+
+.linkedin-card-text p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.linkedin-card-arrow {
+  margin-left: auto;
+  color: #2e2472;
+  font-size: 1.2rem;
+}
